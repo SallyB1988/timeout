@@ -13,7 +13,7 @@ export const Main = () => {
   const [active, setActive] = useState('ACTIVE')
 
   const onPrompt = () => {
-    setActive('TIMEOUT WARNING')
+    setActive('TIMEOUT WARNING!')
     // onPrompt will be called after the timeout value is reached -
     // in this case 10 seconds. Here you can open your prompt. 
     // All events are disabled while the prompt is active. 
